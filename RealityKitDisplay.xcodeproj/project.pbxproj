@@ -7,20 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		17A7316428C3448B008D4C25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A7316328C3448B008D4C25 /* AppDelegate.swift */; };
+		174C268329030F00009B75DC /* SquareImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174C268129030F00009B75DC /* SquareImage.swift */; };
+		174C268429030F00009B75DC /* ButtonLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174C268229030F00009B75DC /* ButtonLabel.swift */; };
+		174C268729031A74009B75DC /* ARDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174C268629031A74009B75DC /* ARDetailsView.swift */; };
+		174C268A29031C7F009B75DC /* DemoInfos.json in Resources */ = {isa = PBXBuildFile; fileRef = 174C268929031C7F009B75DC /* DemoInfos.json */; };
+		174C268C29032D34009B75DC /* FurnitureStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174C268B29032D34009B75DC /* FurnitureStore.swift */; };
+		178D64E928F2E56400FE642C /* DemoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178D64E828F2E56400FE642C /* DemoInfo.swift */; };
+		178D6C882907CEBA00328413 /* Measurements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178D6C872907CEBA00328413 /* Measurements.swift */; };
+		178D6C8A2907DA6000328413 /* MeasureCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178D6C892907DA6000328413 /* MeasureCoordinator.swift */; };
+		1790E17928F0C7C800220348 /* ARModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1790E17828F0C7C800220348 /* ARModels.swift */; };
+		1790E17F28F189ED00220348 /* RealityKitDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1790E17E28F189ED00220348 /* RealityKitDisplay.swift */; };
 		17A7316628C3448B008D4C25 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A7316528C3448B008D4C25 /* ContentView.swift */; };
 		17A7316828C3448B008D4C25 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 17A7316728C3448B008D4C25 /* Experience.rcproject */; };
 		17A7316A28C3448C008D4C25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17A7316928C3448C008D4C25 /* Assets.xcassets */; };
 		17A7316D28C3448C008D4C25 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17A7316C28C3448C008D4C25 /* Preview Assets.xcassets */; };
+		17A7317428C36177008D4C25 /* ModelListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A7317328C36177008D4C25 /* ModelListView.swift */; };
+		17D52D6A28C3A38D00EEE603 /* FurnitureCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D52D6928C3A38D00EEE603 /* FurnitureCoordinator.swift */; };
+		17D52D6C28C498C000EEE603 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D52D6B28C498C000EEE603 /* Extension.swift */; };
+		17DD56FC29006BCD00994838 /* ARMainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DD56F929006BCD00994838 /* ARMainMenuView.swift */; };
+		17DD56FD29006BCD00994838 /* DemoDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DD56FA29006BCD00994838 /* DemoDescriptionView.swift */; };
+		17DD56FF29006D4300994838 /* LoadDemoModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DD56FE29006D4300994838 /* LoadDemoModels.swift */; };
+		17F4CCC92906F61800691BF4 /* PlaceObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F4CCC82906F61800691BF4 /* PlaceObjects.swift */; };
+		17F4CCCB2907141A00691BF4 /* PlaceObjectsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F4CCCA2907141A00691BF4 /* PlaceObjectsCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		174C268129030F00009B75DC /* SquareImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareImage.swift; sourceTree = "<group>"; };
+		174C268229030F00009B75DC /* ButtonLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonLabel.swift; sourceTree = "<group>"; };
+		174C268629031A74009B75DC /* ARDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARDetailsView.swift; sourceTree = "<group>"; };
+		174C268929031C7F009B75DC /* DemoInfos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DemoInfos.json; sourceTree = "<group>"; };
+		174C268B29032D34009B75DC /* FurnitureStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureStore.swift; sourceTree = "<group>"; };
+		178D64E828F2E56400FE642C /* DemoInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoInfo.swift; sourceTree = "<group>"; };
+		178D6C872907CEBA00328413 /* Measurements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Measurements.swift; sourceTree = "<group>"; };
+		178D6C892907DA6000328413 /* MeasureCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureCoordinator.swift; sourceTree = "<group>"; };
+		1790E17828F0C7C800220348 /* ARModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARModels.swift; sourceTree = "<group>"; };
+		1790E17E28F189ED00220348 /* RealityKitDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealityKitDisplay.swift; sourceTree = "<group>"; };
 		17A7316028C3448B008D4C25 /* RealityKitDisplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealityKitDisplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		17A7316328C3448B008D4C25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17A7316528C3448B008D4C25 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		17A7316728C3448B008D4C25 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		17A7316928C3448C008D4C25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17A7316C28C3448C008D4C25 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		17A7317328C36177008D4C25 /* ModelListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelListView.swift; sourceTree = "<group>"; };
+		17D52D6928C3A38D00EEE603 /* FurnitureCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureCoordinator.swift; sourceTree = "<group>"; };
+		17D52D6B28C498C000EEE603 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		17DD56F929006BCD00994838 /* ARMainMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARMainMenuView.swift; sourceTree = "<group>"; };
+		17DD56FA29006BCD00994838 /* DemoDescriptionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoDescriptionView.swift; sourceTree = "<group>"; };
+		17DD56FE29006D4300994838 /* LoadDemoModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadDemoModels.swift; sourceTree = "<group>"; };
+		17F4CCC82906F61800691BF4 /* PlaceObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceObjects.swift; sourceTree = "<group>"; };
+		17F4CCCA2907141A00691BF4 /* PlaceObjectsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceObjectsCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +68,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		174C268029030DCE009B75DC /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				174C268229030F00009B75DC /* ButtonLabel.swift */,
+				174C268129030F00009B75DC /* SquareImage.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		174C268829031C63009B75DC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				174C268929031C7F009B75DC /* DemoInfos.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1790E17728F0C7BB00220348 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				17DD56FE29006D4300994838 /* LoadDemoModels.swift */,
+				1790E17828F0C7C800220348 /* ARModels.swift */,
+				178D64E828F2E56400FE642C /* DemoInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1790E17A28F1896B00220348 /* ARViews */ = {
+			isa = PBXGroup;
+			children = (
+				17D52D6928C3A38D00EEE603 /* FurnitureCoordinator.swift */,
+				17A7316528C3448B008D4C25 /* ContentView.swift */,
+				174C268B29032D34009B75DC /* FurnitureStore.swift */,
+				17F4CCC82906F61800691BF4 /* PlaceObjects.swift */,
+				17F4CCCA2907141A00691BF4 /* PlaceObjectsCoordinator.swift */,
+				178D6C872907CEBA00328413 /* Measurements.swift */,
+				178D6C892907DA6000328413 /* MeasureCoordinator.swift */,
+			);
+			path = ARViews;
+			sourceTree = "<group>";
+		};
+		1790E17B28F1897900220348 /* UIViews */ = {
+			isa = PBXGroup;
+			children = (
+				174C268629031A74009B75DC /* ARDetailsView.swift */,
+				17DD56F929006BCD00994838 /* ARMainMenuView.swift */,
+				17DD56FA29006BCD00994838 /* DemoDescriptionView.swift */,
+			);
+			path = UIViews;
+			sourceTree = "<group>";
+		};
 		17A7315728C3448B008D4C25 = {
 			isa = PBXGroup;
 			children = (
@@ -53,8 +138,14 @@
 		17A7316228C3448B008D4C25 /* RealityKitDisplay */ = {
 			isa = PBXGroup;
 			children = (
-				17A7316328C3448B008D4C25 /* AppDelegate.swift */,
-				17A7316528C3448B008D4C25 /* ContentView.swift */,
+				174C268829031C63009B75DC /* Resources */,
+				174C268029030DCE009B75DC /* Utility */,
+				1790E17B28F1897900220348 /* UIViews */,
+				1790E17A28F1896B00220348 /* ARViews */,
+				1790E17728F0C7BB00220348 /* Model */,
+				1790E17E28F189ED00220348 /* RealityKitDisplay.swift */,
+				17D52D6B28C498C000EEE603 /* Extension.swift */,
+				17A7317328C36177008D4C25 /* ModelListView.swift */,
 				17A7316728C3448B008D4C25 /* Experience.rcproject */,
 				17A7316928C3448C008D4C25 /* Assets.xcassets */,
 				17A7316B28C3448C008D4C25 /* Preview Content */,
@@ -130,6 +221,7 @@
 			files = (
 				17A7316D28C3448C008D4C25 /* Preview Assets.xcassets in Resources */,
 				17A7316A28C3448C008D4C25 /* Assets.xcassets in Resources */,
+				174C268A29031C7F009B75DC /* DemoInfos.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,9 +232,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17F4CCC92906F61800691BF4 /* PlaceObjects.swift in Sources */,
+				174C268C29032D34009B75DC /* FurnitureStore.swift in Sources */,
+				174C268329030F00009B75DC /* SquareImage.swift in Sources */,
+				17F4CCCB2907141A00691BF4 /* PlaceObjectsCoordinator.swift in Sources */,
+				178D64E928F2E56400FE642C /* DemoInfo.swift in Sources */,
+				178D6C8A2907DA6000328413 /* MeasureCoordinator.swift in Sources */,
+				1790E17928F0C7C800220348 /* ARModels.swift in Sources */,
+				178D6C882907CEBA00328413 /* Measurements.swift in Sources */,
 				17A7316628C3448B008D4C25 /* ContentView.swift in Sources */,
-				17A7316428C3448B008D4C25 /* AppDelegate.swift in Sources */,
+				17DD56FD29006BCD00994838 /* DemoDescriptionView.swift in Sources */,
+				1790E17F28F189ED00220348 /* RealityKitDisplay.swift in Sources */,
+				174C268429030F00009B75DC /* ButtonLabel.swift in Sources */,
+				174C268729031A74009B75DC /* ARDetailsView.swift in Sources */,
+				17D52D6A28C3A38D00EEE603 /* FurnitureCoordinator.swift in Sources */,
+				17D52D6C28C498C000EEE603 /* Extension.swift in Sources */,
+				17A7317428C36177008D4C25 /* ModelListView.swift in Sources */,
+				17DD56FF29006D4300994838 /* LoadDemoModels.swift in Sources */,
 				17A7316828C3448B008D4C25 /* Experience.rcproject in Sources */,
+				17DD56FC29006BCD00994838 /* ARMainMenuView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

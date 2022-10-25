@@ -1,0 +1,24 @@
+[
+
+    {
+        "id": 0,
+        "type": "Place Objects",
+        "title": "Place Random Polyhedron",
+        "description": "In this demo, you can click screen to place a random polyhedron, e.g. sphere, cylinder and pyramid",
+        "backGroundImg": ""
+    },
+    {
+        "id": 1,
+        "type": "Furniture Store",
+        "title": "Select and place furnitures",
+        "description": "In this demo, you can select a furniture and click screen to place them",
+        "backGroundImg": ""
+    },
+    {
+        "id": 2,
+        "type": "Measure Distance",
+        "title": "Measuring Distance",
+        "description": "In this demo, you can click any two points and the app will measure the distance",
+        "backGroundImg": ""
+    }
+]
