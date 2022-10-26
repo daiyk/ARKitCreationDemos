@@ -1,0 +1,2 @@
+# Augmented Reality Development Demos based on ARKit and RealityKit
+This repository contains an IOS application that shows the capability of Apple AR development framework: ARKit with RealityKit. The application is continuously under development.
