@@ -18,10 +18,10 @@ struct ARDetailsView: View {
         
         //image for button label
         var buttonLabel: Image{
-            if let uiimage = UIImage(named: dataModel.getIcon(demoModel.type)){
+            if let uiimage = UIImage(named: dataModel.getIcon(demoModel)){
                 return Image(uiImage: uiimage)
             }
-            else if let uiimage = UIImage(systemName: dataModel.getIcon(demoModel.type))
+            else if let uiimage = UIImage(systemName: dataModel.getIcon(demoModel))
             {
                 return Image(uiImage: uiimage)
             }
@@ -49,7 +49,7 @@ struct ARDetailsView: View {
     var body: some View {
         ScrollView{
             VStack{
-                SquareImage(image: viewModel.backgroundImage)
+                SquareImage(image: viewModel.backgroundImage).edgesIgnoringSafeArea(.all)
                 VStack{
                     ButtonLabel(buttonLabel: viewModel.buttonLabel)
                     NavigationLink{

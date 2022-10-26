@@ -24,11 +24,7 @@ struct ARMainMenuView: View {
                                         .fontWeight(.bold)
                                     Spacer()
                                 }
-                                Image(uiImage: data.getBackground(data.demoInfos[0].id))
-                                    .renderingMode(.original)
-                                    .resizable()
-                                    .aspectRatio(contentMode: .fit)
-                                    .frame(height: 200)
+                                SquareImage(image: Image(uiImage: data.getBackground(val.id)))
                                 Spacer()
                             }
                         }

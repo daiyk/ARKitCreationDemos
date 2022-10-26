@@ -17,8 +17,9 @@ enum ARViewType: String,Codable,CaseIterable{
 }
 class LoadDemoModels: ObservableObject{
     @Published var demoInfos:[DemoInfo] = loadModelData("DemoInfos.json")
-    func getIcon(_ appType: ARViewType)->String{
-        switch appType{
+    func getIcon(_ appInfo: DemoInfo)->String{
+        if appInfo.buttonLabel==nil{
+            switch appInfo.type{
             case .placeObjects:
                 return "hand.tap.fill"
             case .furnitureStore:
@@ -29,6 +30,10 @@ class LoadDemoModels: ObservableObject{
                 return "headlight.low.beam.fill"
             default:
                 return "NotImplemented"
+            }
+        }
+        else{
+            return appInfo.buttonLabel!
         }
     }
     func getBackground(_ id:Int)->UIImage{

@@ -5,20 +5,23 @@
         "type": "Place Objects",
         "title": "Place Random Polyhedron",
         "description": "In this demo, you can click screen to place a random polyhedron, e.g. sphere, cylinder and pyramid",
-        "backGroundImg": ""
+        "buttonLabel":"drawing_a_cylinder__sphere",
+        "backGroundImg": "vecteezy_3d-orange-cubes-cylinders-spheres-and-rectangles-with_6543744"
     },
     {
         "id": 1,
         "type": "Furniture Store",
-        "title": "Select and place furnitures",
+        "title": "Select and place potting",
         "description": "In this demo, you can select a furniture and click screen to place them",
-        "backGroundImg": ""
+        "buttonLabel":"vecteezy_houseplant-in-pink-pot_11375995",
+        "backGroundImg": "vector-hand-drawn-potted-cactus"
     },
     {
         "id": 2,
         "type": "Measure Distance",
         "title": "Measuring Distance",
         "description": "In this demo, you can click any two points and the app will measure the distance",
-        "backGroundImg": ""
+        "buttonLabel":"vecteezy_angle-construction-measure-ruler-scale-abstract-circle_13172552",
+        "backGroundImg": "1106_U1RVRElPIEtBVCAwODUtODc"
     }
 ]
