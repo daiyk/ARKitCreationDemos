@@ -48,8 +48,9 @@ struct ARMeasureViewContainer:UIViewRepresentable{
         let arView = ARView(frame: .zero)
         arView.addGestureRecognizer(UITapGestureRecognizer(target: context.coordinator, action: #selector(Coordinator.TapGestureReceiver)))
         let config = ARWorldTrackingConfiguration()
-        config.planeDetection = .horizontal
+        
         arView.session.run(config,options: [.removeExistingAnchors, .resetTracking])
+        config.planeDetection = .horizontal
         arView.addCoachingLayer()
         //add reference to the arview
         context.coordinator.arview = arView

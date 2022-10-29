@@ -11,7 +11,7 @@
 		174C268429030F00009B75DC /* ButtonLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174C268229030F00009B75DC /* ButtonLabel.swift */; };
 		174C268729031A74009B75DC /* ARDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174C268629031A74009B75DC /* ARDetailsView.swift */; };
 		174C268A29031C7F009B75DC /* DemoInfos.json in Resources */ = {isa = PBXBuildFile; fileRef = 174C268929031C7F009B75DC /* DemoInfos.json */; };
-		174C268C29032D34009B75DC /* FurnitureStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174C268B29032D34009B75DC /* FurnitureStore.swift */; };
+		174C268C29032D34009B75DC /* PottingStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174C268B29032D34009B75DC /* PottingStore.swift */; };
 		178D64E928F2E56400FE642C /* DemoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178D64E828F2E56400FE642C /* DemoInfo.swift */; };
 		178D6C882907CEBA00328413 /* Measurements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178D6C872907CEBA00328413 /* Measurements.swift */; };
 		178D6C8A2907DA6000328413 /* MeasureCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178D6C892907DA6000328413 /* MeasureCoordinator.swift */; };
@@ -22,7 +22,7 @@
 		17A7316A28C3448C008D4C25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17A7316928C3448C008D4C25 /* Assets.xcassets */; };
 		17A7316D28C3448C008D4C25 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17A7316C28C3448C008D4C25 /* Preview Assets.xcassets */; };
 		17A7317428C36177008D4C25 /* ModelListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A7317328C36177008D4C25 /* ModelListView.swift */; };
-		17D52D6A28C3A38D00EEE603 /* FurnitureCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D52D6928C3A38D00EEE603 /* FurnitureCoordinator.swift */; };
+		17D52D6A28C3A38D00EEE603 /* PottingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D52D6928C3A38D00EEE603 /* PottingCoordinator.swift */; };
 		17D52D6C28C498C000EEE603 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D52D6B28C498C000EEE603 /* Extension.swift */; };
 		17DD56FC29006BCD00994838 /* ARMainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DD56F929006BCD00994838 /* ARMainMenuView.swift */; };
 		17DD56FD29006BCD00994838 /* DemoDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DD56FA29006BCD00994838 /* DemoDescriptionView.swift */; };
@@ -36,7 +36,7 @@
 		174C268229030F00009B75DC /* ButtonLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonLabel.swift; sourceTree = "<group>"; };
 		174C268629031A74009B75DC /* ARDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARDetailsView.swift; sourceTree = "<group>"; };
 		174C268929031C7F009B75DC /* DemoInfos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DemoInfos.json; sourceTree = "<group>"; };
-		174C268B29032D34009B75DC /* FurnitureStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureStore.swift; sourceTree = "<group>"; };
+		174C268B29032D34009B75DC /* PottingStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PottingStore.swift; sourceTree = "<group>"; };
 		178D64E828F2E56400FE642C /* DemoInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoInfo.swift; sourceTree = "<group>"; };
 		178D6C872907CEBA00328413 /* Measurements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Measurements.swift; sourceTree = "<group>"; };
 		178D6C892907DA6000328413 /* MeasureCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureCoordinator.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		17A7316928C3448C008D4C25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17A7316C28C3448C008D4C25 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		17A7317328C36177008D4C25 /* ModelListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelListView.swift; sourceTree = "<group>"; };
-		17D52D6928C3A38D00EEE603 /* FurnitureCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureCoordinator.swift; sourceTree = "<group>"; };
+		17D52D6928C3A38D00EEE603 /* PottingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PottingCoordinator.swift; sourceTree = "<group>"; };
 		17D52D6B28C498C000EEE603 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		17DD56F929006BCD00994838 /* ARMainMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARMainMenuView.swift; sourceTree = "<group>"; };
 		17DD56FA29006BCD00994838 /* DemoDescriptionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoDescriptionView.swift; sourceTree = "<group>"; };
@@ -98,9 +98,9 @@
 		1790E17A28F1896B00220348 /* ARViews */ = {
 			isa = PBXGroup;
 			children = (
-				17D52D6928C3A38D00EEE603 /* FurnitureCoordinator.swift */,
+				17D52D6928C3A38D00EEE603 /* PottingCoordinator.swift */,
 				17A7316528C3448B008D4C25 /* ContentView.swift */,
-				174C268B29032D34009B75DC /* FurnitureStore.swift */,
+				174C268B29032D34009B75DC /* PottingStore.swift */,
 				17F4CCC82906F61800691BF4 /* PlaceObjects.swift */,
 				17F4CCCA2907141A00691BF4 /* PlaceObjectsCoordinator.swift */,
 				178D6C872907CEBA00328413 /* Measurements.swift */,
@@ -233,7 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				17F4CCC92906F61800691BF4 /* PlaceObjects.swift in Sources */,
-				174C268C29032D34009B75DC /* FurnitureStore.swift in Sources */,
+				174C268C29032D34009B75DC /* PottingStore.swift in Sources */,
 				174C268329030F00009B75DC /* SquareImage.swift in Sources */,
 				17F4CCCB2907141A00691BF4 /* PlaceObjectsCoordinator.swift in Sources */,
 				178D64E928F2E56400FE642C /* DemoInfo.swift in Sources */,
@@ -245,7 +245,7 @@
 				1790E17F28F189ED00220348 /* RealityKitDisplay.swift in Sources */,
 				174C268429030F00009B75DC /* ButtonLabel.swift in Sources */,
 				174C268729031A74009B75DC /* ARDetailsView.swift in Sources */,
-				17D52D6A28C3A38D00EEE603 /* FurnitureCoordinator.swift in Sources */,
+				17D52D6A28C3A38D00EEE603 /* PottingCoordinator.swift in Sources */,
 				17D52D6C28C498C000EEE603 /* Extension.swift in Sources */,
 				17A7317428C36177008D4C25 /* ModelListView.swift in Sources */,
 				17DD56FF29006D4300994838 /* LoadDemoModels.swift in Sources */,

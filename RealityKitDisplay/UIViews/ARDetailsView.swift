@@ -54,8 +54,8 @@ struct ARDetailsView: View {
                     ButtonLabel(buttonLabel: viewModel.buttonLabel)
                     NavigationLink{
                         switch(viewModel.demoModel.type){
-                        case .furnitureStore:
-                            FurnitureStore()
+                        case .pottingStore:
+                            PottingStore()
                         case .placeObjects:
                             PlaceObjects()
                         case .measurment:

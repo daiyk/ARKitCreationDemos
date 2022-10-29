@@ -12,7 +12,7 @@ import RealityKit
 class ARModels: ObservableObject{
     @Published var placeItems: [ModelEntity]?
     @Published var demoType: ARViewType?
-    var furnitureScene:Experience.NaturePlant?
+    var pottingScene:Experience.NaturePlant?
     
     func setDemo(_ demotype: ARViewType){
         demoType = demotype
@@ -38,9 +38,9 @@ class ARModels: ObservableObject{
                 placeItems![2].generateCollisionShapes(recursive: true)
             }
             break
-            case .furnitureStore:
-            if furnitureScene == nil{
-                furnitureScene = try! Experience.loadNaturePlant()
+            case .pottingStore:
+            if pottingScene == nil{
+                pottingScene = try! Experience.loadNaturePlant()
             }
             break
             case .measurment:

@@ -10,7 +10,7 @@ import UIKit
 
 enum ARViewType: String,Codable,CaseIterable{
     case placeObjects="Place Objects"
-    case furnitureStore="Furniture Store"
+    case pottingStore="Potting Store"
     case measurment="Measure Distance"
     case lightDemo="Light Usage Demo"
     case placeholder = "place holder"
@@ -22,7 +22,7 @@ class LoadDemoModels: ObservableObject{
             switch appInfo.type{
             case .placeObjects:
                 return "hand.tap.fill"
-            case .furnitureStore:
+            case .pottingStore:
                 return "cup.and.saucer.fill"
             case .measurment:
                 return "ruler.fill"

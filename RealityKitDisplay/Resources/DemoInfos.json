@@ -10,9 +10,9 @@
     },
     {
         "id": 1,
-        "type": "Furniture Store",
+        "type": "Potting Store",
         "title": "Select and place potting",
-        "description": "In this demo, you can select a furniture and click screen to place them",
+        "description": "In this demo, you can select a potting and click a detected plane to place it on top of the plane",
         "buttonLabel":"vecteezy_houseplant-in-pink-pot_11375995",
         "backGroundImg": "vector-hand-drawn-potted-cactus"
     },
