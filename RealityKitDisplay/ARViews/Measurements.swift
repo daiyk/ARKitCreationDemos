@@ -46,15 +46,14 @@ struct ARMeasureViewContainer:UIViewRepresentable{
     @Binding var distance:Float
     func makeUIView(context: Context) -> ARView {
         let arView = ARView(frame: .zero)
-        arView.addGestureRecognizer(UITapGestureRecognizer(target: context.coordinator, action: #selector(Coordinator.TapGestureReceiver)))
-        let config = ARWorldTrackingConfiguration()
-        
-        arView.session.run(config,options: [.removeExistingAnchors, .resetTracking])
-        config.planeDetection = .horizontal
-        arView.addCoachingLayer()
         //add reference to the arview
         context.coordinator.arview = arView
-    
+        arView.addGestureRecognizer(UITapGestureRecognizer(target: context.coordinator, action: #selector(Coordinator.TapGestureReceiver)))
+        let config = ARWorldTrackingConfiguration()
+        config.planeDetection = .horizontal
+        arView.session.run(config,options: [.removeExistingAnchors, .resetTracking])
+        arView.addCoachingLayer()
+        
         return arView
         
     }

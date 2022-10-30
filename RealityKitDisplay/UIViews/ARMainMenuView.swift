@@ -37,7 +37,7 @@ struct ARMainMenuView: View {
                     }
                     message:
                     {
-                        Text("This app is an AR apps gallery where you can test three AR demos: \nplace objects \nfurniture stores \nmeasure distance")
+                        Text("This app is an AR apps gallery where you can test three AR demos: \nplace objects \npotting stores \nmeasure distance").multilineTextAlignment(.leading)
                     }
                 .navigationTitle("Apps Gallery")
         }

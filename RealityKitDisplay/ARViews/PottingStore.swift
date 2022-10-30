@@ -55,23 +55,25 @@ struct ARPottingViewContainer: UIViewRepresentable {
     @Binding var loadedObjects:Set<String>
     @EnvironmentObject var arDataModel:ARModels
     func makeUIView(context: Context) -> ARView {
+        //set the armodel types
+        arDataModel.setDemo(.pottingStore)
         
         let arView = ARView(frame: .zero)
+        //init coordinator
+        context.coordinator.arModels = arDataModel
+        context.coordinator.arView = arView
+        context.coordinator.modelLoaded = addToContainers
         
         arView.addGestureRecognizer(UITapGestureRecognizer(target: context.coordinator, action: #selector(Coordinator.TapPlantHandler)))
         let config = ARWorldTrackingConfiguration()
         config.planeDetection = .horizontal
         arView.session.run(config,options: [.removeExistingAnchors, .resetTracking])
         arView.addCoachingLayer()
-        //set the armodel types
-        arDataModel.setDemo(.pottingStore)
-        //init coordinator
-        context.coordinator.arModels = arDataModel
-        context.coordinator.arView = arView
-        context.coordinator.modelLoaded = addToContainers
-        saveWorldMap.OnSave={
-            context.coordinator.SaveWorldMap()
-        }
+        
+        
+//        saveWorldMap.OnSave={
+//            context.coordinator.SaveWorldMap()
+//        }
         context.coordinator.loadWorldMap()
         return arView
         

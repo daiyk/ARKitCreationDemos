@@ -11,7 +11,7 @@ import RealityKit
 // datamodel that stores all required data we need
 class ARModels: ObservableObject{
     @Published var placeItems: [ModelEntity]?
-    @Published var demoType: ARViewType?
+    var demoType: ARViewType?
     var pottingScene:Experience.NaturePlant?
     
     func setDemo(_ demotype: ARViewType){
