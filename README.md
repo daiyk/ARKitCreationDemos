@@ -15,7 +15,7 @@ This repository contains an IOS application that shows the capability of Apple A
 
 ## How to use the app
 The app contains three demos for testing the functions of ARKit with RealityKit. 
-[![Alt Text](https://1drv.ms/u/s!Ao0uJrka7OVLgeRviw_uhigJDYfyTQ?e=ph6Dhh)]
+[![Alt Text](https://db5pap001files.storage.live.com/y4mgFsSXcjffREBBt94BF5SUNIrw9djUJ7Vuj1137SL5PEy_3GHmXUMtM82E5l-emlUxOVVdUpz2sjH2mDHuoq-ftu49BDMelcBd9b0Y31BOTdM9TZvme9lRFegDn378e14OT1Us-xiqAvRAOL30Vmb2SMYgJ7wBah0g14GKakXI154wyNh8oRaSvMzI6wTNwv7?encodeFailures=1&width=780&height=1688)
 ### Place Objects
 In this demo, you can see a plane, a sphere and a cube are placed on the first detected horizontal plane. Clicking each object can change their colors.
 
